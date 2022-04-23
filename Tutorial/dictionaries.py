@@ -21,4 +21,4 @@ infectedHealth = {
 }
 
 bloaterHealthBar = infectedHealth['Bloater']
-print('the bloater has a huge health bar, its maximum health is ' + bloaterHealthBar )
+print('the bloater has a huge health bar, its maximum health is ' + bloaterHealthBar)
