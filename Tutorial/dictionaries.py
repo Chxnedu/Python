@@ -22,3 +22,7 @@ infectedHealth = {
 
 bloaterHealthBar = infectedHealth['Bloater']
 print('the bloater has a huge health bar, its maximum health is ' + bloaterHealthBar)
+
+# to add a new key-value pair to the dictionary, we use
+infectedHealth['dogs'] = '10'
+print(infectedHealth)
