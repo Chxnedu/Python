@@ -1,6 +1,6 @@
 # a basic guessing game where we specify a particular word and the user has to guess the word till
 # they get the correct word
-# now i update the guessing game to give the user a limit of 3 guesses
+# now I update the guessing game to give the user a limit of 3 guesses
 
 word = "goat"
 guess = ""
