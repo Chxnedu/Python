@@ -6,7 +6,9 @@
 
 ticket_prices = ["free", "$10", "$15"]
 # age = input("How old are you? ")
+
 # first solution using if statements and lists
+
 # if int(age) < 3:
 #    print("Your ticket is " + ticket_prices[0])
 # elif 3 <= int(age) <= 12:
