@@ -15,8 +15,13 @@
 
 # hello_users("Chxnedu", 20)
 
-# you can use the return statement with functions. it returns the value back to the caller
-def cube(num):
-    return num*num*num
+# to specify an arbitrary number of parameters, use *params
+def top3_games(*games):
+    print(games)
 
-print(cube(4))
+top3_games("tlou2", "bloodborne", "tlou")
+# you can use the return statement with functions. it returns the value back to the caller
+#def cube(num):
+#    return num*num*num
+
+# print(cube(4))
