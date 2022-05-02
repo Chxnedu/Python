@@ -4,4 +4,4 @@
 
 import functions
 
-functions.top3_games('tlou2', 'control')
+functions.top3_games('tlou2', 'black ops 3')
