@@ -19,7 +19,7 @@
 def top3_games(*games):
     print(games)
 
-top3_games("tlou2", "bloodborne", "tlou")
+# top3_games("tlou2", "bloodborne", "tlou")
 # you can use the return statement with functions. it returns the value back to the caller
 #def cube(num):
 #    return num*num*num
