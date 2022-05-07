@@ -8,3 +8,10 @@ class Phone:
         self.ram = ram
         self.rom = rom
         self.refresh_rate = refresh_rate
+    def has_high_refreshrate(self):
+        if self.refresh_rate >= 90:
+            return True
+        else:
+            return False
+
+# you can also define functions inside a class defintion
