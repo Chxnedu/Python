@@ -45,3 +45,46 @@ class User:
 
     def reset_login_attempts(self):
         self.login_attempts = 0
+
+
+class IceCreamStand(Restaurant):
+# a new class inheriting from the restaurant class
+
+    def __init__(self, restaurant_name, cuisine_type):
+        super().__init__(restaurant_name, cuisine_type)
+        self.flavors = ['vanilla', 'chocolate', 'strawberry'] # a new attribute for icecreamstand
+
+
+    def display_flavors(self):
+        print("The flavors available are: " + str(self.flavors))
+    # a method exclusive to only the icecreamstand class
+
+
+class Privileges():
+
+    def __init__(self):
+        self.user_privileges = ['can create post', 'can delete post', 'can edit profile']
+
+    def show_privileges(self):
+        print('This user has the following priveleges: ' + str(self.user_privileges))
+
+
+
+
+class Admin(User):
+# a new class inheriting from the user class
+
+    def __init__(self, first_name, last_name, age, hobby):
+        super().__init__(first_name, last_name, age, hobby)
+        self.privileges = Privileges()
+
+
+
+
+
+
+
+
+
+
+
