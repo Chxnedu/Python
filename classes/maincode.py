@@ -1,7 +1,4 @@
-from classfile import User
-from classfile import Restaurant
-from classfile import IceCreamStand
-from classfile import Admin
+from classfile import User, Restaurant, IceCreamStand, Admin
 # now to make an instance using the class
 
 restaurant = Restaurant("Cruchies", "FastFood")

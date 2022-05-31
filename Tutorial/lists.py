@@ -2,6 +2,12 @@
 friends = [ "stanley", "chxnedu", "ugo", "kachi"]
 enemies = [ "brock", "lexi", "nate"]
 
+
+numbs = [1,2,3]
+for numb in numbs:
+    print('hello', numb)
+
+
 # the .extend combines the 2 lists
 # friends.extend(enemies)
 
